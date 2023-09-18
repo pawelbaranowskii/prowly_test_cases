@@ -1,0 +1,81 @@
+Test Case 1: Verify Date Filtering - "Past 24 Hours"
+
+Test Name: Date Filtering - Past 24 Hours
+
+Description: Verify that users can search for "prowly" on Google.com and filter the search results to show only results from the past 24 hours.
+
+Test Steps:
+
+Precondition: Open a web browser.
+Navigate to www.google.com.
+In the search bar, enter "prowly" and press Enter.
+Action: Wait for the search results page to load.
+Action: Click on the "Tools" button located under the search bar.
+From the "Any time" dropdown, select "Past 24 hours."
+Action: Wait for the search results to update.
+Verification: Verify that all displayed results are from the past 24 hours.
+
+Test Data:
+
+Search Query: "prowly"
+Selected Date Filter: "Past 24 Hours"
+Time Estimation: Approximately 10 minutes
+
+Expected Result:
+
+All search results displayed on the page should be related to "prowly" and should have been published or updated in the past 24 hours.
+
+Test Case 2: Verify Date Filtering - "Past Week"
+
+Test Name: Date Filtering - Past Week
+
+Description: Verify that users can search for "prowly" on Google.com and filter the search results to show only results from the past week.
+
+Test Steps:
+
+Precondition: Open a web browser.
+Navigate to www.google.com.
+In the search bar, enter "prowly" and press Enter.
+Action: Wait for the search results page to load.
+Action: Click on the "Tools" button located under the search bar.
+From the "Any time" dropdown, select "Past week."
+Action: Wait for the search results to update.
+Verification: Verify that all displayed results are from the past week.
+
+Test Data:
+
+Search Query: "prowly"
+Selected Date Filter: "Past Week"
+Time Estimation: Approximately 10 minutes
+
+Expected Result:
+
+All search results displayed on the page should be related to "prowly" and should have been published or updated in the past week.
+
+Test Case 3: Verify Date Filtering - "Custom Date Range"
+
+Test Name: Date Filtering - Custom Date Range
+
+Description: Verify that users can search for "prowly" on Google.com and filter the search results using a custom date range.
+
+Test Steps:
+
+Precondition: Open a web browser.
+Navigate to www.google.com.
+In the search bar, enter "prowly" and press Enter.
+Action: Wait for the search results page to load.
+Action: Click on the "Tools" button located under the search bar.
+From the "Any time" dropdown, select "Custom range."
+Action: Specify a custom date range (e.g., from 30 days ago to 15 days ago).
+Action: Wait for the search results to update.
+Verification: Verify that all displayed results fall within the specified custom date range.
+
+Test Data:
+
+Search Query: "prowly"
+Custom Date Range: 30 days ago to 15 days ago
+Time Estimation: Approximately 15 minutes
+
+Expected Result:
+
+All search results displayed on the page should be related to "prowly" and should fall within the specified custom date range.
